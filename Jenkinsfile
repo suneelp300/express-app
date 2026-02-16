@@ -1,3 +1,5 @@
+pipeline {
+agent any
 environment {
     APP_DIR = "/var/lib/jenkins/workspace/express-cicd-pipeline"
 }
